@@ -1,0 +1,16 @@
+.product {
+  min-height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-img {
+  width: 50%;
+}
+
+@media screen and (min-width: 768px) {
+  .product-img {
+    width: 20%;
+  }
+}

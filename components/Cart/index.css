@@ -1,0 +1,17 @@
+.cart {
+  min-height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart-img {
+  width: 30%;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-img {
+    width: 15%;
+  }
+}
